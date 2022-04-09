@@ -31,7 +31,7 @@ const Submenu = () => {
           const { label, icon, url } = link;
           return (
             <a key={index} href={url}>
-              {label}
+              {icon} {label}
             </a>
           );
         })}
